@@ -3,3 +3,6 @@
 ################################################################################
 
 /.vs
+/WebGentleBookStore/.vs/WebGentleBookStore
+/WebGentleBookStore/WebGentleBookStore/bin/Debug/netcoreapp3.1
+/WebGentleBookStore/WebGentleBookStore/obj
