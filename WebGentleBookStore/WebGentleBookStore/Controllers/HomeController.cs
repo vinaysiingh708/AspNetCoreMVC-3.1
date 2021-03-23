@@ -10,7 +10,8 @@ namespace WebGentleBookStore.Controllers
     {
         public ViewResult Index()
         {
-            return View("~/TempView/Index.cshtml");
+            //return View("~/TempView/Index.cshtml");
+            return View();
         }
 
         public ViewResult AboutUs()
