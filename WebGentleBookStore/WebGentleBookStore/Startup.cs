@@ -31,11 +31,11 @@ namespace WebGentleBookStore
 
             app.UseStaticFiles();
 
-            app.UseStaticFiles(new StaticFileOptions()
-            {
-                FileProvider = new PhysicalFileProvider(Path.Combine(Directory.GetCurrentDirectory(), "MyStaticFiles")),
-                RequestPath= "/MyStaticFiles"
-            });
+            //app.UseStaticFiles(new StaticFileOptions()
+            //{
+            //    FileProvider = new PhysicalFileProvider(Path.Combine(Directory.GetCurrentDirectory(), "MyStaticFiles")),
+            //    RequestPath= "/MyStaticFiles"
+            //});
 
             app.UseRouting();   
 
